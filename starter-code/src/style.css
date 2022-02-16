@@ -13,13 +13,15 @@ h1 {
   padding-bottom: 0;
 }
 
-button {
-  margin: 20px;
+.btn {
   font-family: Outfit;
   font-size: 9px;
-  padding: 8px;
   color: white;
   background: black;
+  border: none;
+}
+.btn :hover {
+  background-color: goldenrod;
 }
 .middle-box h3 {
   font-family: Big Shoulders Display;
@@ -108,10 +110,11 @@ button {
 }
 .bottom-box {
   background: black;
+  margin-top: 50px;
 }
 h5 {
   font-family: Big Shoulders Display;
-  font-size: 15px;
+  font-size: 16px;
   color: white;
   padding-top: 30px;
   padding-left: 40px;
@@ -127,4 +130,33 @@ h5 {
   padding-bottom: 30px;
   background: black;
   margin-right: 10px;
+}
+footer .website-link {
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+footer .website-link:hover {
+  color: rgb(114, 23, 160);
+}
+
+footer .social-links a {
+  color: black;
+  margin-top: 5px;
+  margin: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: black;
+}
+
+.github-link {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 10px;
+  text-align: center;
 }
