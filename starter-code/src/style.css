@@ -11,6 +11,8 @@ body {
 .container {
   max-width: 970px;
 }
+/* header --------
+------------------------------------*/
 h1 {
   font-family: Big Shoulders Display;
   font-size: 96px;
@@ -20,7 +22,7 @@ h1 {
   padding-left: 50px;
   padding-bottom: 0;
   line-height: 88px;
-  width: 550px;
+  width: 600px;
 }
 .text-box {
   background: var(--text-color);
@@ -33,18 +35,24 @@ h1 {
   height: 850px;
 }
 .col-md-6 couple-pic {
-  padding-left: -12px;
+  padding-left: 0px;
 }
 .underneath {
   font-family: Big Shoulders Display;
   font-size: 96px;
   color: var(--text-color);
   text-align: left;
-  padding-left: -12px;
+  padding-left: -15px;
   padding-top: 85px;
   line-height: 88px;
   background-image: none;
   background-color: transparent;
+}
+.over {
+  font-family: Big Shoulders Display;
+  font-size: 96px;
+  text-align: left;
+  padding-left: -15px;
 }
 .col-md-1 p {
   font-family: Outfit;
@@ -56,15 +64,19 @@ h1 {
   width: 280px;
   z-index: -5;
 }
-.btn {
+.hero-btn-dark {
   font-family: Big Shoulders Display;
   font-size: 16px;
   font-weight: bold;
   color: var(--background-color);
   background: var(--text-color);
   margin-left: -90px;
-  margin-top: 20px;
-  border: none;
+}
+.hero-btn-light {
+  color: #fff;
+  background-color: #d5966c;
+  margin-left: 14px;
+  margin-top: -65px;
 }
 
 .btn :hover {
