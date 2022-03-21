@@ -4,6 +4,15 @@
   --second-color: #444;
   --background-color: #ffffff;
 }
+/* border box fix */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 body {
   background: var(--background-color);
   margin-top: 20px;
@@ -19,35 +28,22 @@ h1 {
   color: var(--background-color);
   text-align: left;
   padding-top: 80px;
-  padding-left: 50px;
-  padding-bottom: 0;
   line-height: 88px;
-  width: 600px;
+  margin-left: -245px;
+}
+
+.col-md-6 {
+  background-image: url("images/desktop/image-hero.jpg");
+  height: 700px;
 }
 .text-box {
   background: var(--text-color);
   padding-left: 40px;
   padding-top: 5px;
   width: 350px;
+  height: 700px;
 }
-.col-md-6 {
-  background-image: url("images/desktop/image-hero.jpg");
-  height: 850px;
-}
-.col-md-6 couple-pic {
-  padding-left: 0px;
-}
-.underneath {
-  font-family: Big Shoulders Display;
-  font-size: 96px;
-  color: var(--text-color);
-  text-align: left;
-  padding-left: -15px;
-  padding-top: 85px;
-  line-height: 88px;
-  background-image: none;
-  background-color: transparent;
-}
+
 .over {
   font-family: Big Shoulders Display;
   font-size: 96px;
@@ -62,7 +58,6 @@ h1 {
   margin-left: -90px;
   opacity: 60%;
   width: 280px;
-  z-index: -5;
 }
 .hero-btn-dark {
   font-family: Big Shoulders Display;
