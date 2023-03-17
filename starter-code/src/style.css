@@ -30,6 +30,7 @@ h1 {
   padding-top: 80px;
   line-height: 88px;
   margin-left: -245px;
+  position: absolute;
 }
 
 .col-md-6 {
@@ -182,4 +183,9 @@ footer .social-links a:hover {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 10px;
   text-align: center;
+}
+@ media (min-width: 600px) {
+  .top-box {
+    width: 25%;
+  }
 }
